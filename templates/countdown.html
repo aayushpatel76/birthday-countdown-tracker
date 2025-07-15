@@ -254,6 +254,7 @@
 
     <script>
         const startDate = new Date();
+        startDate.setDate(startDate.getDate() - 1); // Start from yesterday
         startDate.setHours(0, 0, 0, 0);
         const endDate = new Date('2026-01-06');
         endDate.setHours(0, 0, 0, 0);
